@@ -1,0 +1,226 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0deg 0% 100%);
+    overflow: auto;
+    overflow-x:hidden ;
+}
+
+.apple {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+    padding: 1rem 0 1rem 15.5rem;
+}
+
+.about {
+    margin-left: 1.5rem;
+    color: hsl(0deg 0% 60%);
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+input.about {
+    border: none;
+    border-bottom: 1px solid hsl(0deg 0% 60%);
+    width: 10rem;
+    outline: none;
+}
+
+.offer:hover {
+    color: #3d3b3c;
+    cursor: pointer;
+    border-bottom: 1.5px #8e8c8e solid;
+}
+
+.services {
+    margin-left: 28rem;
+}
+
+.answer {
+    display: flex;
+    align-items: center;
+}
+
+.freedom h1 {
+    font-size: 50px;
+}
+
+.answer .a-call {
+    color: #a6a4a6;
+    margin-left: 2rem;
+}
+.line {
+    background-color:#858385;
+    height: 6rem;
+    width: 2px;
+}
+
+.active-line {
+    height: 4.5rem;
+}
+
+.freedom button {
+    background-color: #e95854;
+    color:#fef1e3;
+    padding: 0.5rem 1rem;
+    font-weight: 1000;
+    border: none;
+    margin-top: 1.5rem;
+}
+
+.freedom button:hover {
+    background-color: #db5348;
+    cursor: pointer;
+}
+
+.freedom-calls {
+    display: flex;
+    padding: 1rem 0 1rem 15.5rem;
+    
+    /* border-bottom: 3px solid #db5348; */
+    /* padding: 1rem 0 1rem 15.5rem; */
+    /* align-items: center; */
+    /* justify-content:     space-between; */
+}
+
+.wrist-watch img {
+    /* justify-self: flex-end; */
+    position:    absolute;
+    width: 40rem;
+    right: -18rem;
+    top: 5rem;
+    /* border-bottom: 3px solid /#db5348; */
+}
+
+.dots {
+    display: flex;
+}
+.dot {
+    background-color: hsl(180deg 1% 78%);
+    height: 0.25rem;
+    width: 0.2rem;
+    margin-right: 1rem;
+    margin-top: -1.5rem;
+}
+
+.runs {
+    margin-right: 6rem;
+}
+.runs h6 {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+}
+
+.runs h5 {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+.runners {
+    display: flex;
+    padding: 1rem 0 1rem 15.5rem;
+    margin-bottom: 6rem;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.learn {
+    background-color: #db5348;
+    height: 2px;
+    width: 30px;
+}
+
+.learn-more span {
+    color: #db5348;
+    font-size: 11.5px;
+    font-weight: 1000;
+    
+}
+
+.linux{
+margin-right: .5rem;
+width: 2rem;
+height: 5px;
+background-color: #db5348;
+/* display: block; */
+transition: all 200ms linear;
+
+}
+   .learn-more:hover .linux {
+       width: 3rem;
+   } 
+/* .learn-more span:hover::before {
+width: 4rem;
+}
+
+.learn-more span::before {
+content: "";
+width: 3rem;
+height: 5px;
+background-color: #db5348;
+display: block;
+position: absolute;
+left: -4rem;
+transition: all 100ms linear;
+
+} */
+
+.preview {
+    object-fit: contain;
+    height: 38rem;
+    margin-left: 10rem;
+}
+
+.Nike-sport {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 1rem 15.5rem;
+}
+
+.active-freedom {
+    color: hsl(0deg 0% 100%);
+    /* background-image: url(/img/runners.jpg); */
+    /* margin-top: -30rem; */
+    justify-content: flex-start;
+    padding-left: 40rem;
+}
+
+.background {
+    background-image: url(/img/runners.jpg);
+    background-position: center;
+    background-size: cover;
+    /* object-fit: contain; */
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+
+.answer .active {
+    color: hsl(38deg 100% 96%);
+}
+
+.answer .intact {
+    background-color:hsl(38deg 100% 96%);
+}
+
+.acting-freedom {
+    border-bottom: 2px #f4f2f4 solid;
+    /* border-bottom: 2px yellow solid; */
+    padding-bottom: 8.7rem;
+    /* position: relative; */
+    align-items: center;
+}
